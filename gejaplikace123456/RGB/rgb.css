@@ -1,0 +1,54 @@
+.red-display {
+    background-color: red;
+    width: 25px;
+    height: 25px;
+}
+
+.green-display {
+    background-color: green;
+    width: 25px;
+    height: 25px;
+}
+
+.blue-display {
+    background-color: blue;
+    width: 25px;
+    height: 25px;
+}
+
+.rgb-display {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    padding: 0px 0px;
+    margin: 0px 10px;
+    float: right;
+    display: inline-flex;
+    border-style: dotted;
+    border-color: black;
+}
+
+#container {
+    padding: 10px 10px;
+    display: inline-block;
+}
+
+#red-container {
+    display: inline-flex;
+}
+
+#green-container {
+    display: inline-flex;
+}
+
+#blue-container {
+    display: inline-flex;
+}
+
+td { 
+    padding: 5px;
+}
+
+nav {
+    float: right;
+}

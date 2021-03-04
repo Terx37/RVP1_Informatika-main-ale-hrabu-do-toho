@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Základy informatiky</title>
+        <link rel="stylesheet" href="rgb.css"></link>
+    </head>
+    <body>
+        <!--<input type="color" id="color-picker">-->
+        <div id="container">
+            <nav>
+                <table>
+                <tr><td id="decimalRGB">Decimal: 0 0 0</td></tr>
+                <tr><td id="indexRGB">Index: 0 0 0</td></tr>
+                <tr><td id="hexRGB">Hex: #000000</td></tr>
+            </table>
+            </nav>
+            <div class="rgb-display"></div>
+            <div id="red-container">
+                <input type="range" class="color-red" min="0" max="255" value="255">
+                <div class="red-display"></div>
+            </div></br>
+
+            <div id="green-container">
+                <input type="range" class="color-green" min="0" max="255" value="255">
+                <div class="green-display"></div>
+            </div></br>
+
+            <div id="blue-container">
+                <input type="range" class="color-blue" min="0" max="255" value="255">
+                <div class="blue-display"></div>
+            </div></br>
+        </div>
+        <script src="rgb.js"></script>
+    </body>
+</html>
